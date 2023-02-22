@@ -11,6 +11,6 @@ Patches: revanced-patches-2.162.0.jar
 
   
 **App Versions:**  
-YouTube: 18.03.36  
+YouTube: 18.06.39  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
