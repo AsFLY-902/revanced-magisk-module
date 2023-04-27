@@ -1,17 +1,37 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.99.0.apk  
-Patches: revanced-patches-2.164.0.jar  
+Integrations: revanced-integrations-0.102.6.apk  
+Patches: revanced-patches-2.169.5.jar  
 
-### [2.164.0](https://github.com/revanced/revanced-patches/compare/v2.163.0...v2.164.0) (2023-02-24)
-### Features
-* **photomath:** `unlock-plus` patch ([#1633](https://github.com/revanced/revanced-patches/issues/1633)) ([a673514](https://github.com/revanced/revanced-patches/commit/a673514f848e583513924a6a9b8cfbb56153cc3a))
-* **youtube/general-ads:** hide quick actions in fullscreen ([fff9670](https://github.com/revanced/revanced-patches/commit/fff9670a81108b8343d0b7913953fc6c2bb4a6f0))
-* **youtube/general-ads:** hide related videos in quick action ([d23c31a](https://github.com/revanced/revanced-patches/commit/d23c31a9ec39189e08474044ac5ca06d974add76))
-* **youtube/return-youtube-dislike:** support for shorts ([#1596](https://github.com/revanced/revanced-patches/issues/1596)) ([967c1cb](https://github.com/revanced/revanced-patches/commit/967c1cbd4b340a382a355f13d236d2881bafddbf))
-* **youtube:** remove patch `open-links-directly` ([79291a0](https://github.com/revanced/revanced-patches/commit/79291a0d34bd9514cbef5d97c21c59dfbffad287))
+YouTube
+==
+- add `hide-quick-actions` patch
+- add `hide-home-button`, `hide-subscriptions-button` patch https://github.com/inotia00/ReVanced_Extended/issues/14
+- fix typo
+- fix: `hide-live-chat` patch still remains in patch list
+- fix(hide-button-container): add missing dependencies
+- fix(sponsorblock): include milliseconds in the voting menu
+- refactor(hide-button-container): add support for a/b tests
+- refactor(swipe-controls): when `Press-to-swipe` is disabled, `Press-to-swipe haptic feedback` is also disabled https://github.com/inotia00/ReVanced_Extended/issues/811
+- remove `hide-fullscreen-buttoncontainer` patch
+- update adblock filter
+- crowdin translation update
+`Bulgarian`, `Chinese Traditional`, `French`, `Italian`, `Japanese`, `Korean`, `Polish`, `Spanish`, `Ukrainian`, `Vietnamese`
 
+
+ETC
+==
+- add support YouTube v18.15.40
+- drop support YouTube v18.15.38
+
+
+※ Compatible ReVanced Manager: v0.0.57
+※ If you want to contribute to the translation, refer below
+
+[Crowdin translation]
+- [European Countries](https://crowdin.com/project/revancedextendedeu)
+- [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.09.37  
+YouTube: 18.15.40  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
