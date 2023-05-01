@@ -1,40 +1,27 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.105.2.apk  
-Patches: revanced-patches-2.171.2.jar  
+Integrations: revanced-integrations-0.105.0.apk  
+Patches: revanced-patches-2.171.0.jar  
 
-YouTube
-==
-- feat(protobuf-spoof): change default value to ON
-- fix(hide-email-address): add space between address and bracket https://github.com/inotia00/ReVanced_Extended/issues/886
-- fix(protobuf-spoof): subtitles are on top https://github.com/inotia00/ReVanced_Extended/issues/875
-- fix(sponsorblock): video-id-hook should be applied last
-- refactor(force-vp9-codec): integrate `lift-vertical-video-restriction` patch https://github.com/inotia00/ReVanced_Extended/issues/883
-- crowdin translation update
-`Chinese Traditional`, `French`, `German`, `Greek`, `Italian`, `Japanese`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
+### [2.171.0](https://github.com/revanced/revanced-patches/compare/v2.170.0...v2.171.0) (2023-04-27)
+### Bug Fixes
+* **enable-android-debugging:** make option `debuggable` false by default ([e717e26](https://github.com/revanced/revanced-patches/commit/e717e260fd0449a97929c3c82da577362586c5e1))
+* **youtube/minimized-playback:** disable minimized playback for shorts ([#1990](https://github.com/revanced/revanced-patches/issues/1990)) ([b91d18d](https://github.com/revanced/revanced-patches/commit/b91d18d24f332a9aa8721dc053e395d352b5796d))
+* **youtube/spoof-signature-verification:** additional fixes for subtitle window positions ([#1975](https://github.com/revanced/revanced-patches/issues/1975)) ([08584e6](https://github.com/revanced/revanced-patches/commit/08584e680fc658f37e8730499fa5197a08370776))
+### Features
+* **id-austria:** remove compatibility version constraint ([#1952](https://github.com/revanced/revanced-patches/issues/1952)) ([94ffd5a](https://github.com/revanced/revanced-patches/commit/94ffd5a26fe42f223a09ad6bd7f34f1fac0986ad))
+* **youtube/sponsorblock:** automatically hide skip button ([#1956](https://github.com/revanced/revanced-patches/issues/1956)) ([c3c8ae6](https://github.com/revanced/revanced-patches/commit/c3c8ae6b4377b12838971cedc32779e12c07363c))
+* **youtube:** `hide-player-overlay` patch ([#1965](https://github.com/revanced/revanced-patches/issues/1965)) ([d233d96](https://github.com/revanced/revanced-patches/commit/d233d96faf838b22f4c458ad445af048362e7421))
 
-
-YouTube Music
-==
-- feat(music-settings): update strings resources
-- fix: `music-microg-support` patch causes YT settings to crash https://github.com/inotia00/ReVanced_Extended/issues/874
-- fix(remember-video-quality): patch description is missing
-- crowdin translation update
-`Chinese Traditional`, `French`, `Greek`, `Polish`, `Spanish`, `Turkish`, `Vietnamese`
-
-
-ETC
-==
-- build: update dependencies
-
-
-※ Compatible ReVanced Manager: v0.0.57
-※ If you want to contribute to the translation, refer below
-
-[Crowdin translation]
-- [European Countries](https://crowdin.com/project/revancedextendedeu)
-- [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.16.37  
+YouTube: 18.15.40  
+Music (arm64-v8a): 5.39.52  
+Music (arm-v7a): 5.39.52  
+Twitter: 9.86.0-release.0  
+Reddit: 2023.12.0  
+Twitch: 14.6.1  
+TikTok: 27.8.3  
+
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
